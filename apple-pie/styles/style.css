@@ -1,24 +1,184 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
-
-*, *:before, *:after {
+ *, *:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
 }
 
-/*  Set the font */
+
 body {
-  font-family: "Helvetica", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: none;
+  margin: 0;
 }
 
-/* STYLES */
-/* Write your CSS below */
+
+#container {
+  background-image: url(../images/apple-pie.jpg);
+  height: 90vh;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ #container h1 {
+  text-align: center;
+  color:white ;
+  font-size: 140px;
+}
+
+
+#introduction {
+
+  width:75% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#introduction p {
+  font-size: 25;
+}
+
+.horizontal_line {
+  background-color: rgba(37, 39, 37 0 27 );
+ width: 100%;
+ height: 5px;
+ border-top: 4px solid #808080;
+ line-height: 80%;
+}
+
+#ingredients-text,
+#ingredients-text {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ width: 80%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family:"Open Sans", sans-serif;
+  color:blue; 
+}
+
+#ingredients-text li,
+#ingredients-text li {
+  width: 100%;
+ font-size: 24px;
+ font-family: "Open Sans", sans-serif;
+}
+
+#directions-text {
+ margin-bottom: 40px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-container  img{
+  max-width: 90%;
+  height: 100px;
+}
+
+.horizontal_line_two {
+  background-color: rgba(37, 39, 37 0 27 );
+  width: 75%;
+  border-top: 4px solid #808080;
+  line-height: 80%;
+}
+
+footer  {
+ padding: 60px;
+ background-color: rgb(161, 98, 22);
+ width: 100%;
+ bottom: 0px;
+}
+
+footer p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(30, 26, 46);
+  font-size: 28px;
+ }
+ 
+
+/* img[alt="Cooking Information"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+} */
+
+/* hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+} */
+
+
+
+
+
+
+/* ul {
+  list-style-type: disc;
+  padding-left: 20px;
+} */
+
+
+
+
+
+/* ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+} */
+
+
+
+
+/* img alt="Recipe Information" {
+  max-width: 500px;
+} */
+
+
+
